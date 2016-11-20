@@ -1,0 +1,55 @@
+body
+{
+	background:#212212;
+}
+
+.form_container
+{
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.left,.right
+{
+	position: absolute;
+	top: 50%;
+	font-size: 4em;
+	height: 50px;
+	border: none;
+	color: #f7f7f7;
+	background: #00ccc5;
+	border-radius: 100px;
+	cursor: pointer;
+}
+
+.letf
+{
+	left: 0px;
+}
+.right
+{
+	right: 0px;
+}
+.form_container .sliderContainer
+{
+	white-space: nowrap;
+}
+
+.form_container .sliderContainer .slide
+{
+	display: inline-block;
+	margin-right: -4px;
+	vertical-align: top;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: 20%;
+}
+
+@media screen and (max-width: 650px){
+	.form_container
+	{
+		width: 100%;
+	}
+}
